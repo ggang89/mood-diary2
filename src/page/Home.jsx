@@ -5,7 +5,7 @@ import Header from "../components/Header";
 export default function Home() {
   return (
     <div className="w-[650px] h-screen bg-white m-auto shadow-md">
-      <Header leftChild={"<"} title={"2024년 10월"} rightChild={">"} />
+      <Header leftChild={<Button text={"<"} />} title={"2024년 10월"} rightChild={<Button text={">"} />} />
       <div className="flex gap-3 p-4 text-sm ">
         <select className=" bg-gray-200 p-2 text-center rounded-md cursor-pointer">
           <option>최신순</option>
